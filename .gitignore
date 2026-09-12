@@ -1,0 +1,42 @@
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+*.apk
+*.aab
+*.apks
+*.idsig
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+.env
+.env.*
+app/src/full/
+app/src/main/assets/s
+app/src/main/assets/r
+app/src/main/assets/c
+request/
+release/
+log/
+backup/
+verification/
+.tmp/
+.playwright-cli/
+*.hprof
+.DS_Store
+
+# 构建日志与临时截图不入库
+*_log.txt
+*_log2.txt
+Screenshot_*.jpg
+
+# 工具状态不入库
+.mimosa/
+
+# 快照由 Paparazzi 生成，不入库
+app/src/test/snapshots/
+support_test_log*.txt
